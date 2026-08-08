@@ -1,0 +1,316 @@
+  <!-- Desktop Nav -->
+  <ul class="desktop-nav">
+    <li><a href="#inicio">Inicio</a></li>
+    <li><a href="#promociones">Promociones</a></li>
+    <li><a href="#carta">Döner & Dürüm</a></li>
+    <li><a href="#ubicacion">Ubicación</a></li>
+  </ul>
+
+  <div class="header-actions">
+    <button class="header-call-btn" onclick="openPhoneModal()" aria-label="Llamar para pedir">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      <span>PEDIR</span>
+    </button>
+
+    <button class="menu-toggle" id="menuToggleBtn" aria-label="Abrir menú de navegación">
+      <span id="navLine1"></span>
+      <span id="navLine2"></span>
+      <span id="navLine3"></span>
+    </button>
+  </div>
+</div>
+
+<div class="mobile-menu-footer">
+  <button class="btn btn-primary" onclick="closeMobileMenu(); openPhoneModal();">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+    <span>LLAMAR AHORA</span>
+  </button>
+
+  <a href="https://maps.app.goo.gl/VeLMKxbZ7E18vGZj7" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+    <span>CÓMO LLEGAR</span>
+  </a>
+</div>
+
+      <div class="hero-brand-badge">
+        <svg class="hero-logo-img" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="50" cy="50" r="46" fill="url(#hero-bg-grad)" stroke="#FF6A00" stroke-width="3"/>
+          <!-- Inner flame motif -->
+          <path d="M50 18C44 26 42 36 42 42C42 48 45.2 54 50 56C54.8 54 58 48 58 42C58 36 56 26 50 18Z" fill="#FFC700"/>
+          <path d="M72 44C68 52 60 56 60 66C60 76 68 82 68 82C62 88 54 90 48 90C36 90 26 80 26 68C26 54 38 44 46 34C40 44 38 54 44 60C48 56 52 50 52 44C58 48 64 42 72 44Z" fill="#E62E00"/>
+          <defs>
+            <radialGradient id="hero-bg-grad" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(50 50) rotate(90) scale(46)">
+              <stop stop-color="#3D0A03"/>
+              <stop offset="1" stop-color="#0F0200"/>
+            </radialGradient>
+          </defs>
+        </svg>
+        <span class="badge badge-red">🔥 Granollers</span>
+      </div>
+
+      <h1 class="hero-title-main">
+        LA CORTEZA
+        <span>FAST FOOD</span>
+      </h1>
+
+      <div class="hero-products-pill">
+        <span>DÖNER KEBAB</span>
+        <span class="dot"></span>
+        <span>DÜRÜM KEBAB</span>
+      </div>
+
+      <!-- Quick Offer Bar from Postcard Front/Back -->
+      <div class="hero-offer-highlight">
+        <div class="hero-offer-item">
+          <span class="hero-offer-val">50%</span>
+          <span class="hero-offer-lbl">DESCUENTO</span>
+        </div>
+        <div class="hero-offer-divider"></div>
+        <div class="hero-offer-item">
+          <span class="hero-offer-val">2,99€</span>
+          <span class="hero-offer-lbl">RECOGIDA</span>
+        </div>
+      </div>
+
+      <div class="hero-cta-grid">
+        <button class="btn btn-primary" onclick="openPhoneModal()">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <span>PEDIR AHORA</span>
+        </button>
+
+        <a href="https://maps.app.goo.gl/VeLMKxbZ7E18vGZj7" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>CÓMO LLEGAR</span>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     PROMOTIONS SECTION
+     ========================================================================== -->
+<section id="promociones" class="promos-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-subtitle">OFERTAS EXCLUSIVAS</span>
+      <h2 class="section-title">PROMOCIONES</h2>
+    </div>
+
+    <div class="promo-cards-stack">
+
+      <!-- Promo 1: 50% OFF (Postcard Front) -->
+      <article class="promo-card promo-card-50">
+        <span class="promo-badge-top">OFERTA ESTRELLA</span>
+        <div class="promo-card-body">
+          <div class="promo-50-header">
+            <div class="big-discount-tag">50%</div>
+            <div class="promo-50-titles">
+              <h3>DÖNER & DÜRÜM</h3>
+              <p>En tus especialidades de Kebab favoritas.</p>
+            </div>
+          </div>
+          <button class="btn btn-yellow" onclick="openPhoneModal()">
+            <span>APROVECHAR 50% DTO</span>
+          </button>
+        </div>
+      </article>
+
+      <!-- Promo 2: GRAN OPORTUNIDAD 2.99€ (Postcard Back) -->
+      <article class="promo-card promo-card-event">
+        <div class="promo-card-body">
+          <div class="promo-event-header">
+            <span class="event-tagline">GRAN OPORTUNIDAD</span>
+            <div class="event-dates-pill">
+              <span class="days">8 y 9</span>
+              <span class="month-year">AGOSTO 2026</span>
+            </div>
+          </div>
+
+          <div class="event-price-box">
+            <div class="event-condition">
+              <span class="cond-main">COMIDAS</span>
+              <span class="cond-sub">SOLO PARA RECOGER</span>
+            </div>
+            <div class="event-price-tag">2,99€</div>
+          </div>
+
+          <div class="event-delivery-note">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            <span>Servicio a <strong>DOMICILIOS</strong> disponible por teléfono.</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     DÖNER & DÜRÜM SHOWCASE
+     ========================================================================== -->
+<section id="carta" class="menu-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-subtitle">NUESTRAS ESPECIALIDADES</span>
+      <h2 class="section-title">DÖNER & DÜRÜM</h2>
+    </div>
+
+    <div class="food-grid">
+
+      <!-- Item 1: Döner Kebab -->
+      <article class="food-card">
+        <div class="food-img-wrapper">
+          <img 
+            src="https://images.unsplash.com/photo-1561758033-d89a9ad46330?auto=format&fit=crop&w=800&q=80" 
+            alt="Döner Kebab La Corteza" 
+            class="food-img" 
+            loading="lazy"
+          >
+          <span class="food-badge-promo">🔥 50% DTO</span>
+        </div>
+        <div class="food-card-content">
+          <h3 class="food-title">
+            DÖNER KEBAB
+          </h3>
+          <p class="food-desc">
+            Pan pita crujiente recién horneado, jugosa carne sazonada a la brasa, lechuga fresca, tomate, cebolla roja y nuestras salsas artesanales especial La Corteza.
+          </p>
+          <div class="food-action-row">
+            <button class="btn btn-primary" onclick="openPhoneModal()">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>PEDIR DÖNER</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Item 2: Dürüm Kebab -->
+      <article class="food-card">
+        <div class="food-img-wrapper">
+          <img 
+            src="https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=crop&w=800&q=80" 
+            alt="Dürüm Kebab La Corteza" 
+            class="food-img" 
+            loading="lazy"
+          >
+          <span class="food-badge-promo">🔥 50% DTO</span>
+        </div>
+        <div class="food-card-content">
+          <h3 class="food-title">
+            DÜRÜM KEBAB
+          </h3>
+          <p class="food-desc">
+            Fina tortilla de trigo enrollada al estilo tradicional, repleta de carne dorada al fuego, vegetales frescos y la perfecta combinación de salsa blanca y picante.
+          </p>
+          <div class="food-action-row">
+            <button class="btn btn-primary" onclick="openPhoneModal()">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>PEDIR DÜRÜM</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     BRAND HIGHLIGHT BANNER
+     ========================================================================== -->
+<section class="brand-banner">
+  <div class="container">
+    <div class="brand-banner-inner">
+      <h3>SABOR INTENSO A LA BRASA</h3>
+      <p>En <strong>La Corteza Fast Food</strong> preparamos cada Döner y Dürüm con pasión, utilizando ingredientes frescos y la mejor selección de carne.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     LOCATION & CONTACT SECTION
+     ========================================================================== -->
+<section id="ubicacion" class="location-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-subtitle">ENCONTRARNOS ES FÁCIL</span>
+      <h2 class="section-title">UBICACIÓN Y PEDIDOS</h2>
+    </div>
+
+    <div class="location-card">
+      <!-- Address info -->
+      <div class="address-box">
+        <div class="icon-circle">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        </div>
+        <div class="address-info">
+          <h4>DIRECCIÓN</h4>
+          <p>Calle Francesc Tarafa, 04<br>Granollers</p>
+        </div>
+      </div>
+
+      <!-- Direct Google Maps CTA -->
+      <a 
+        href="https://maps.app.goo.gl/VeLMKxbZ7E18vGZj7" 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        class="btn btn-secondary"
+        style="border-color: var(--brand-orange);"
+      >
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        <span>VER EN GOOGLE MAPS</span>
+      </a>
+
+      <!-- Multi-phone Call Links -->
+      <div class="phone-numbers-box">
+        <span class="phone-number-title">TELÉFONOS DE PEDIDOS Y DOMICILIOS:</span>
+        <div class="phone-links-grid">
+          <a href="tel:+34654201659" class="phone-btn-link">
+            <span>+34 654 20 16 59</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </a>
+
+          <a href="tel:+34930373819" class="phone-btn-link">
+            <span>+34 930 37 38 19</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <ul class="footer-links">
+    <li><a href="#inicio">Inicio</a></li>
+    <li><a href="#promociones">Promociones</a></li>
+    <li><a href="#carta">Especialidades</a></li>
+    <li><a href="#ubicacion">Ubicación</a></li>
+  </ul>
+
+  <p class="footer-copy">
+    Calle Francesc Tarafa, 04 - Granollers<br>
+    © 2026 La Corteza Fast Food. Todos los derechos reservados.
+  </p>
+</div>
+
+  <a href="https://maps.app.goo.gl/VeLMKxbZ7E18vGZj7" target="_blank" rel="noopener noreferrer" class="btn btn-secondary bottom-bar-btn">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+    <span>CÓMO LLEGAR</span>
+  </a>
+</div>
+
+  <div class="phone-links-grid">
+    <a href="tel:+34654201659" class="phone-btn-link" onclick="closePhoneModal()">
+      <span>+34 654 20 16 59</span>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+    </a>
+
+    <a href="tel:+34930373819" class="phone-btn-link" onclick="closePhoneModal()">
+      <span>+34 930 37 38 19</span>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+    </a>
+  </div>
+</div>
